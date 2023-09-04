@@ -1,39 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Página Web Bonita</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .hero {
-            background-image: url('hero.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 80vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .hero h1 {
-            color: white;
-            font-size: 48px;
-        }
-        .content {
-            padding: 40px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Mi Página Web</title>
 </head>
 <body>
-    <div class="hero">
-        <h1>Mi Página Web Bonita</h1>
-    </div>
-    <div class="content">
-        <h2>Bienvenidos a mi página web</h2>
-        <p>Esta es una página web bonita que he creado con la ayuda de Bing.</p>
-    </div>
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Acerca de Nosotros</h2>
+            <p>Somos una empresa dedicada a...</p>
+        </section>
+        <section>
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Servicio 1</li>
+                <li>Servicio 2</li>
+                <li>Servicio 3</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mi Página Web</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
